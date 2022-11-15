@@ -1,9 +1,3 @@
--- web chat call
-CALL createWebChat( 4, 'White Oaks Web Chat', 7, 'white_oaks_webchat', 'white_oaks_webchat.css', 1, 1 );
-
--- delete out location for another test
-DELETE FROM location WHERE company_id = 4 AND phone_number_id = 7;
-
 -- set collation
 SET collation_connection = utf8mb4_unicode_ci;
 SET collation_database = utf8mb4_unicode_ci;
